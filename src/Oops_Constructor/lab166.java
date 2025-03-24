@@ -16,4 +16,11 @@ class  mobile{
      this.Model_name=model_nameC;
      this.yearoflaunch=yearoflaunch_1;
 }
+void  display(){
+    System.out.println(this.Model_name+ " "+ this.yearoflaunch);
+
+    }
+    String gime_Model_name(){
+     return  this.Model_name;
+    }
 }
